@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main() {
+    float n;
+    printf("Enter a float value : ");
+    //read input from user to "n"
+    scanf("%f", &n);
+    //print to console
+    printf("You entered %f\n", n);
+    return 0;
+}

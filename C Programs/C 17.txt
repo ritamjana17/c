@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    float basic, da, hra, cca, it, pt, pf, salary;
+
+    // Input the values
+    printf("Enter Basic Salary: ");
+    scanf("%f", &basic);
+
+    printf("Enter DA: ");
+    scanf("%f", &da);
+
+    printf("Enter HRA: ");
+    scanf("%f", &hra);
+
+    printf("Enter CCA: ");
+    scanf("%f", &cca);
+
+    printf("Enter IT Deduction: ");
+    scanf("%f", &it);
+
+    printf("Enter PT Deduction: ");
+    scanf("%f", &pt);
+
+    printf("Enter PF Deduction: ");
+    scanf("%f", &pf);
+
+    // Calculate the salary
+    salary = basic + da + hra + cca - it - pt - pf;
+
+    // Display the result
+    printf("Salary: %.2f\n", salary);
+
+    return 0;
+}
